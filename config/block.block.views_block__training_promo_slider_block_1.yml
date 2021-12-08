@@ -1,0 +1,29 @@
+uuid: 735caed2-ca12-44c7-9d10-0b63f64ec552
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.training_promo_slider
+  module:
+    - system
+    - views
+  theme:
+    - pubsub
+id: views_block__training_promo_slider_block_1
+theme: pubsub
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:training_promo_slider-block_1'
+settings:
+  id: 'views_block:training_promo_slider-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
